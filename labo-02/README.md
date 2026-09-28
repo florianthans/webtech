@@ -6,11 +6,11 @@ Naam: (jouw naam)
 
 Welke elementen raakt elke selector? Eén zin per selector.
 
-- a. `header nav ul li a`: 
-- b. `article > p`: 
-- c. `.uren li:nth-child(3)`: 
-- d. `h2 ~ p`: 
-- e. `.rassen li:first-child`: 
+- a. `header nav ul li a`: de links adopteren, rassen en openingsuren
+- b. `article > p`: elk paragraaf binnen elk artikel
+- c. `.uren li:nth-child(3)`: het derde uur in de lijst van class uren oftewel woensdag
+- d. `h2 ~ p`: alle pargrafen van h2 bij dezelfde parent
+- e. `.rassen li:first-child`: de eerste child van de class rassen, hier is dit honden
 
 ## 3. Voorspel, dan kijk
 
@@ -18,11 +18,11 @@ Vul de eerste twee kolommen in vóór je de pagina opent. Trede: herkomst, speci
 
 | vraag | mijn voorspelling (kleur) | beslissende trede | uitkomst in de browser | juist? |
 |---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
+| 1 | groen | | | |
+| 2 | blauw| | | |
+| 3 | rood | | | |
+| 4 | groen | | | |
+| 5 |  | | | |
 | 6 | | | | |
 | 7 | | | | |
 | 8 | | | | |
