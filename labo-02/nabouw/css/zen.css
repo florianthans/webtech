@@ -1,13 +1,14 @@
 /* zen.css - dezelfde HTML, een ander blad. Alleen om naar te kijken; niets hiervan is opgave. */
 
 :root {
-  --color-paper: #14110f;
-  --color-ink: #f3ede4;
-  --color-muted: #a89f93;
-  --color-accent: #e8b04b;
-  --color-zebra: #221d19;
+  --color-paper: #fbf7f0;
+  --color-ink: #2b2b2b;
+  --color-muted: #6b6b6b;
+  --color-accent: #b5451b;
+  --color-zebra: #f1e9dc;
   --font-body: Georgia, serif;
   --font-heading: "Trebuchet MS", Verdana, sans-serif;
+  --font-size: 1.25rem
 }
 
 body {
