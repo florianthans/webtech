@@ -6,3 +6,35 @@
 }
 
 /* === your rules === */
+main {
+    border: 0.75rem solid black;
+    background-color: #ec4b03;
+    width: 90vh;
+    height: 90vh;
+    margin-left: 57vh;
+    margin-top: 5vh;
+}
+
+div{
+    border: 0.75rem solid black;
+    border-radius: 50%;
+    background-color: #b99ec1;
+    height: 70%;
+    width: 70%;
+    margin: 15%;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 90%;
+    width: 90%;
+    background-color: #f9b700;
+    margin-top: -7%;
+    margin-left: -7%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0.75rem solid black;
+    padding-top: 14rem;
+    font-size: 4rem;
+}

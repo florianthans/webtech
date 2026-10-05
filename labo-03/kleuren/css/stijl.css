@@ -6,3 +6,46 @@
 }
 
 /* === your rules === */
+.tomato {
+    background-color: tomato;
+}
+
+.orangered {
+    background-color: orangered;
+}
+
+.coral {
+    background-color: coral;
+}
+
+.lightsalmon {
+    background-color: lightsalmon;
+}
+
+.darkorange {
+    background-color: darkorange;
+}
+
+li {
+    padding-top: 15vh;
+    text-align: center;
+    height: 40vh;
+    color: white;
+    font-family: Arial;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+p {
+    margin-top: 2vh;
+    word-spacing: 1vh;
+}

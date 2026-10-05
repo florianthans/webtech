@@ -6,3 +6,84 @@
 }
 
 /* === your rules === */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.banner {
+    background-color: #c8b8ff;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: 85rem;
+}   
+
+a {
+    color: #5551ff;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    padding-right: 1rem;
+}
+
+header {
+    text-align: right;
+}
+
+main {
+    background-color: #779cee;
+    min-height: 80%;
+    display: flex;
+    padding-left: 5rem;
+}
+
+article {
+    width: 50%;
+}
+
+.afbeelding {
+    width: 50%;
+}
+
+img {
+    width: 70%;
+    padding-left: 10vh;
+    padding-bottom: 10vh;
+    padding-right: 10vh;
+}
+
+.bovenkop {
+    padding-top: 3rem;
+    font-size: 1.2rem;
+}   
+
+h1 {
+    width: 45vh;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+article p {
+    width: 25rem;
+    margin-bottom: 2rem;
+}
+
+.knop {
+    background-color: black;
+    color: white;
+    border-radius: .5rem;
+    padding: .7rem;
+    text-decoration: none;
+}
+
