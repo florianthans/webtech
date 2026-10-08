@@ -27,8 +27,11 @@
 }
 
 li {
-    padding-top: 22.5vh;
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     height: 50vh;
     color: white;
     font-family: Arial;
