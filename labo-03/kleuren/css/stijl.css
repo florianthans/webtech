@@ -27,11 +27,12 @@
 }
 
 li {
-    padding-top: 15vh;
+    padding-top: 22.5vh;
     text-align: center;
-    height: 40vh;
+    height: 50vh;
     color: white;
     font-family: Arial;
+    box-sizing: border-box;
 }
 
 ul {
