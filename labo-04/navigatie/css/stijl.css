@@ -1,0 +1,44 @@
+/* stijl.css - labo 4, navigatie (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+--kleur_balk: #1f3a2e;
+--kleur_text: #f3efe6;
+--kleur_accent: #e6b53c;
+}
+
+/* === your rules === */
+nav > ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;  
+    gap: .5rem
+}
+
+header {
+    display: flex;
+    background-color: var(--kleur_balk);
+    justify-content: space-between;
+    align-items: center;
+    margin: .5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--kleur_text);
+    padding: .75rem 1.25rem .75rem 1.25rem;
+    border-radius: .5rem;
+}
+
+header > a{ 
+    color: var(--kleur_accent);
+    font-size: 1.25rem;
+}
+
+li > a:focus,li > a:hover {
+    background-color: var(--kleur_accent);
+    color: var(--kleur_balk);
+}

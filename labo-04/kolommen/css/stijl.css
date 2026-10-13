@@ -1,0 +1,40 @@
+/* stijl.css - labo 4, kolommen (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+
+}
+
+/* === your rules === */
+main {
+    display: flex;
+    gap: 4vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10vh 4vw 10vh 4vw;
+}
+
+div:nth-child(1) {
+    background-color: darkturquoise;
+    flex: 1;
+}
+
+div:nth-child(2) {
+    background-color: darkviolet;
+    flex: 2;
+}
+
+div:nth-child(3) {
+    background-color: deepskyblue;
+    flex: 1;
+}
+
+main > div {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    height: 100vh;
+    align-content: center;
+}
